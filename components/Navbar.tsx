@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { useState } from "react";
-import Image from "next/image";
 
 export const Navbar = () => {
   const [active, setActive] = useState(false);
@@ -13,7 +12,7 @@ export const Navbar = () => {
     <nav className="flex items-center flex-wrap bg-black p-3">
       <Link href="/">
         <a className="inline-flex items-center p-2 mr-4 ">
-          <Image src="/favicon.ico" alt="Logo" width={30} height={30} />
+          <img src="/favicon.jpg" alt="Logo" width={30} height={30} />
           <span className="text-xl text-white font-bold uppercase tracking-wide pl-3">
             Jason Zhang
           </span>
