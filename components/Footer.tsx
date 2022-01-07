@@ -1,18 +1,14 @@
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
 
 export const Footer = () => {
   return (
-    <footer className={styles.footer}>
+    <footer className="flex justify-center items-center py-8 border-t-2">
       <a
         href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Powered by{" "}
-        <span className={styles.logo}>
-          <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-        </span>
+        Jason Zhang 2021
       </a>
     </footer>
   );
