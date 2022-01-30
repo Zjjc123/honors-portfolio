@@ -41,7 +41,7 @@ export default function Second() {
             alt="Autumn 22"
           />
 
-          <div className="absolute text-white text-7xl font-bold top-40 right-0 left-0 drop-shadow-lg border-y-4">
+          <div className="absolute text-white text-xl md:text-3xl xl:text-6xl font-bold top-40 right-0 left-0 drop-shadow-lg border-y-4">
             AUTUMN 2022
           </div>
         </div>
@@ -71,7 +71,7 @@ export default function Second() {
             alt="Winter 23"
           />
 
-          <div className="absolute text-white text-7xl font-bold top-40 right-0 left-0 drop-shadow-lg border-y-4">
+          <div className="absolute text-white text-xl md:text-3xl xl:text-6xl font-bold top-40 right-0 left-0 drop-shadow-lg border-y-4">
             WINTER 2023
           </div>
         </div>
@@ -101,7 +101,7 @@ export default function Second() {
             alt="Spring 23"
           />
 
-          <div className="absolute text-white text-7xl font-bold top-40 right-0 left-0 drop-shadow-lg border-y-4">
+          <div className="absolute text-white text-xl md:text-3xl xl:text-6xl font-bold top-40 right-0 left-0 drop-shadow-lg border-y-4">
             SPRING 2023
           </div>
         </div>

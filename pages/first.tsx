@@ -42,7 +42,7 @@ export default function First() {
             alt="Autumn 21"
           />
 
-          <div className="absolute text-white text-7xl font-bold top-40 right-0 left-0 drop-shadow-lg border-y-4">
+          <div className="absolute text-white text-xl md:text-3xl xl:text-6xl font-bold top-40 right-0 left-0 drop-shadow-lg border-y-4">
             AUTUMN 2021
           </div>
         </div>
@@ -72,7 +72,7 @@ export default function First() {
             alt="Winter 21"
           />
 
-          <div className="absolute text-white text-7xl font-bold top-40 right-0 left-0 drop-shadow-lg border-y-4">
+          <div className="absolute text-white text-xl md:text-3xl xl:text-6xl font-bold top-40 right-0 left-0 drop-shadow-lg border-y-4">
             WINTER 2022
           </div>
         </div>
@@ -102,7 +102,7 @@ export default function First() {
             alt="Spring 21"
           />
 
-          <div className="absolute text-white text-7xl font-bold top-40 right-0 left-0 drop-shadow-lg border-y-4">
+          <div className="absolute text-white text-xl md:text-3xl xl:text-6xl font-bold top-40 right-0 left-0 drop-shadow-lg border-y-4">
             SPRING 2022
           </div>
         </div>

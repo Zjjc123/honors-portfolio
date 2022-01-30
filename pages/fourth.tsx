@@ -41,7 +41,7 @@ export default function Fourth() {
             alt="Autumn 24"
           />
 
-          <div className="absolute text-white text-7xl font-bold top-40 right-0 left-0 drop-shadow-lg border-y-4">
+          <div className="absolute text-white text-xl md:text-3xl xl:text-6xl font-bold top-40 right-0 left-0 drop-shadow-lg border-y-4">
             AUTUMN 2024
           </div>
         </div>
@@ -71,7 +71,7 @@ export default function Fourth() {
             alt="Winter 25"
           />
 
-          <div className="absolute text-white text-7xl font-bold top-40 right-0 left-0 drop-shadow-lg border-y-4">
+          <div className="absolute text-white text-xl md:text-3xl xl:text-6xl font-bold top-40 right-0 left-0 drop-shadow-lg border-y-4">
             WINTER 2025
           </div>
         </div>
@@ -101,7 +101,7 @@ export default function Fourth() {
             alt="Spring 25"
           />
 
-          <div className="absolute text-white text-7xl font-bold top-40 right-0 left-0 drop-shadow-lg border-y-4">
+          <div className="absolute text-white text-xl md:text-3xl xl:text-6xl font-bold top-40 right-0 left-0 drop-shadow-lg border-y-4">
             SPRING 2025
           </div>
         </div>
