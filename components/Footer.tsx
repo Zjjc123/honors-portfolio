@@ -8,7 +8,7 @@ export const Footer = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Jason Zhang 2021
+        Jason Zhang 2022
       </a>
     </footer>
   );

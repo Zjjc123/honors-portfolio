@@ -18,3 +18,16 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.vertical-timeline::before {
+  left: 25px !important;
+  width: 5px !important;
+}
+
+.vertical-timeline-element-content .vertical-timeline-element-date {
+  padding: 0 !important;
+}
+
+.top-40 {
+  top: 40%;
+}
