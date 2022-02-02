@@ -13,7 +13,7 @@ const Layout: NextPage = (props) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <main className="min-h-screen flex flex-col justify-center items-center py-16 px-16 lg:px-64">
+      <main className="min-h-screen flex flex-col py-16 px-4 lg:px-8">
         {props.children}
       </main>
       <Footer />

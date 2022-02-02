@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <footer className="flex justify-center items-center py-8 border-t-2">
       <a
-        href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+        href="https://jasonzhang.dev/"
         target="_blank"
         rel="noopener noreferrer"
       >

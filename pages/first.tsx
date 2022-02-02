@@ -17,10 +17,10 @@ export default function First() {
   const navigateSpring = () => router.push("/first/spring");
 
   return (
-    <VerticalTimeline layout="1-column" lineColor="black" className="mx-48">
+    <VerticalTimeline layout="2-columns" lineColor="black" className="mx-48">
       <VerticalTimelineElement
         contentStyle={{
-          marginTop: "60px",
+          marginTop: "80px",
           marginBottom: "100px",
           cursor: "pointer",
         }}
@@ -36,13 +36,13 @@ export default function First() {
         <div className="relative mx-auto my-auto text-center m-auto">
           <Image
             width={1110}
-            height={400}
+            height={550}
             objectFit="cover"
             src={aut21pic}
             alt="Autumn 21"
           />
 
-          <div className="absolute text-white text-xl md:text-3xl xl:text-6xl font-bold top-40 right-0 left-0 drop-shadow-lg border-y-4">
+          <div className="absolute text-white text-xl md:text-6xl font-bold top-38 right-0 left-0 drop-shadow-lg">
             AUTUMN 2021
           </div>
         </div>
@@ -50,7 +50,6 @@ export default function First() {
 
       <VerticalTimelineElement
         contentStyle={{
-          marginTop: "100px",
           marginBottom: "100px",
           cursor: "pointer",
         }}
@@ -66,13 +65,13 @@ export default function First() {
         <div className="relative mx-auto my-auto text-center m-auto">
           <Image
             width={1110}
-            height={400}
+            height={550}
             objectFit="cover"
             src={placeholder}
             alt="Winter 21"
           />
 
-          <div className="absolute text-white text-xl md:text-3xl xl:text-6xl font-bold top-40 right-0 left-0 drop-shadow-lg border-y-4">
+          <div className="absolute text-white text-xl md:text-6xl font-bold top-38 right-0 left-0 drop-shadow-lg">
             WINTER 2022
           </div>
         </div>
@@ -96,13 +95,13 @@ export default function First() {
         <div className="relative mx-auto my-auto text-center m-auto">
           <Image
             width={1110}
-            height={400}
+            height={550}
             objectFit="cover"
             src={placeholder}
             alt="Spring 21"
           />
 
-          <div className="absolute text-white text-xl md:text-3xl xl:text-6xl font-bold top-40 right-0 left-0 drop-shadow-lg border-y-4">
+          <div className="absolute text-white text-xl md:text-6xl font-bold top-38 right-0 left-0 drop-shadow-lg">
             SPRING 2022
           </div>
         </div>

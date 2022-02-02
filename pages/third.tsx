@@ -16,10 +16,10 @@ export default function Thirds() {
   const navigateSpring = () => router.push("/third/spring");
 
   return (
-    <VerticalTimeline layout="1-column" lineColor="black" className="mx-48">
+    <VerticalTimeline layout="2-columns" lineColor="black" className="mx-48">
       <VerticalTimelineElement
         contentStyle={{
-          marginTop: "60px",
+          marginTop: "80px",
           marginBottom: "100px",
           cursor: "pointer",
         }}
@@ -35,13 +35,13 @@ export default function Thirds() {
         <div className="relative mx-auto my-auto text-center m-auto">
           <Image
             width={1110}
-            height={400}
+            height={550}
             objectFit="cover"
             src={placeholder}
             alt="Autumn 23"
           />
 
-          <div className="absolute text-white text-xl md:text-3xl xl:text-6xl font-bold top-40 right-0 left-0 drop-shadow-lg border-y-4">
+          <div className="absolute text-white text-xl md:text-6xl font-bold top-38 right-0 left-0 drop-shadow-lg">
             AUTUMN 2023
           </div>
         </div>
@@ -49,7 +49,6 @@ export default function Thirds() {
 
       <VerticalTimelineElement
         contentStyle={{
-          marginTop: "100px",
           marginBottom: "100px",
           cursor: "pointer",
         }}
@@ -65,13 +64,13 @@ export default function Thirds() {
         <div className="relative mx-auto my-auto text-center m-auto">
           <Image
             width={1110}
-            height={400}
+            height={550}
             objectFit="cover"
             src={placeholder}
             alt="Winter 24"
           />
 
-          <div className="absolute text-white text-xl md:text-3xl xl:text-6xl font-bold top-40 right-0 left-0 drop-shadow-lg border-y-4">
+          <div className="absolute text-white text-xl md:text-6xl font-bold top-38 right-0 left-0 drop-shadow-lg">
             WINTER 2024
           </div>
         </div>
@@ -95,13 +94,13 @@ export default function Thirds() {
         <div className="relative mx-auto my-auto text-center m-auto">
           <Image
             width={1110}
-            height={400}
+            height={550}
             objectFit="cover"
             src={placeholder}
             alt="Spring 24"
           />
 
-          <div className="absolute text-white text-xl md:text-3xl xl:text-6xl font-bold top-40 right-0 left-0 drop-shadow-lg border-y-4">
+          <div className="absolute text-white text-xl md:text-6xl font-bold top-38 right-0 left-0 drop-shadow-lg">
             SPRING 2024
           </div>
         </div>
