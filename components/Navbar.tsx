@@ -60,25 +60,6 @@ export const Navbar = () => {
             className="ml-2 border-green-900 bg-green-500 shadow-inner rounded-full w-3 h-3"
             id="maxbtn"
           ></div>
-          <button
-            className="inline-flex p-3 hover:bg-gray-600 lg:hidden text-white ml-auto hover:text-white outline-none"
-            onClick={handleClick}
-          >
-            <svg
-              className="w-6 h-6"
-              fill="none"
-              stroke="black"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M4 6h16M4 12h16M4 18h16"
-              />
-            </svg>
-          </button>
           <div
             className={`${
               active ? "" : "hidden"
@@ -112,6 +93,25 @@ export const Navbar = () => {
               </Link>
             </div>
           </div>
+          <button
+            className="inline-flex p-3 hover:bg-gray-600 lg:hidden text-white ml-auto hover:text-white outline-none"
+            onClick={handleClick}
+          >
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              stroke="black"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </button>
         </div>
       </div>
     </div>
