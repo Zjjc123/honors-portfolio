@@ -5,14 +5,18 @@ const sen: string =
   "> A current first year Computer Science student at the University of Washington";
 
 const Home: NextPage = () => {
-  const [sentence, setSentence] = useState("huh?");
+  const reduce = 20;
+
+  const [sentence, setSentence] = useState(
+    sen.substring(0, sen.length - reduce)
+  );
 
   const animate = async () => {
     function sleep(ms: number) {
       return new Promise((resolve) => setTimeout(resolve, ms));
     }
 
-    for (let i = 20; i >= 0; i--) {
+    for (let i = reduce; i >= 0; i--) {
       await sleep(50);
       setSentence(sen.substring(0, sen.length - i));
     }
