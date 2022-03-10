@@ -1,6 +1,42 @@
+import { useState, useEffect } from "react";
 import { NextPage } from "next";
 
+const sen: string =
+  "> A current first year Computer Science student at the University of Washington";
+
 const Home: NextPage = () => {
+  const [sentence, setSentence] = useState("huh?");
+
+  const animate = async () => {
+    function sleep(ms: number) {
+      return new Promise((resolve) => setTimeout(resolve, ms));
+    }
+
+    for (let i = 20; i >= 0; i--) {
+      await sleep(50);
+      setSentence(sen.substring(0, sen.length - i));
+    }
+
+    let cursorOn = false;
+
+    setInterval(() => {
+      if (cursorOn) {
+        setSentence(sen);
+      } else {
+        setSentence(sen + "|");
+      }
+      cursorOn = !cursorOn;
+    }, 700);
+  };
+
+  useEffect(() => {
+    animate();
+  }, []);
+
+  useEffect(() => {
+    console.log("sentence changed!!!!!");
+  }, [sentence]);
+
   return (
     <h1 className="container mt-8 mx-auto font-mono text-center">
       <div className="w-3/4 mx-auto">
@@ -43,8 +79,7 @@ const Home: NextPage = () => {
               {">"} I&apos;m Jason Zhang
             </h2>
             <h3 className="pl-2 text-left text-xl lg:text-3xl mb-2 lg:mb-4 mt-2 lg:mt-4">
-              {">"} A current first year Computer Science student at the
-              University of Washington
+              {sentence}
             </h3>
           </div>
         </div>
