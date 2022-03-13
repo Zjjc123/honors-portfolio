@@ -9,7 +9,11 @@ export const Heading3 = (props: any) => {
 };
 
 export const Heading4 = (props: any) => {
-  return <h1 className="py-1 text-xl font-sans">{props.children}</h1>;
+  return (
+    <h1 className={"py-1 text-xl font-sans " + props.className}>
+      {props.children}
+    </h1>
+  );
 };
 
 export const Paragraph = (props: any) => {
